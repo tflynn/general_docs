@@ -1,0 +1,28 @@
+{
+ "styles" : [
+	["heading1", {
+        "backColor": "#446885",
+        "borderColor": "#446885",
+        "borderWidth": 0.2,
+        "textColor": "#FFFFFF",
+        "leading": 10,
+        "alignment": "TA_CENTER",
+        "spaceBefore": 4,
+        "borderPadding": [3,0,1,0],
+        "leftIndent": 0,
+        "fontSize": 10,
+        "fontName": "stdSansBold"
+    }],
+	  [ "credits", {
+	  	"borderWidth": 0.2,
+	  	"borderPadding": [3,0,1,0],
+	  	"spaceBefore": 6,
+	    "kerning" : true,
+	    "fontSize": 8,
+	    "leading": 0,
+	    "spaceAfter": 1
+	    }
+	  ]    
+
+ ]	
+}	

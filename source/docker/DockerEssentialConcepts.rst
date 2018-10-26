@@ -1,0 +1,31 @@
+Docker Essential Concepts
+-------------------------
+
+
+**Docker** uses containers to deploy and run applications.
+
+
+A **Dockerfile** contains installation and execution instructions for applications, their OS environment etc. Frequently, a one-to-one correspondence is maintained between a single application and a single Dockerfile.
+
+
+When a Dockerfile is built, a **Docker Image** results.
+
+
+When executed (in Docker), the in-memory version of a Docker image becomes a
+**Docker container**.
+
+
+A **Docker Service** codifies how a Docker container runs - number of instances etc.(usually for a single application).
+
+
+A **Docker Stack**  typically manages multiple related services.
+
+
+A **Docker docker-compose.yml** file contains the rules for loading, scaling one or more Docker Services.
+
+
+A **Docker Swarm** is a group of Docker host machines joined in a cluster of nodes. The docker swarm has **manager** and **worker** nodes. Generally separate hosts are assigned as managers and workers, though the same host can function in both roles.
+
+
+**Manager nodes** manage, distribute, balance etc. the services (containers) across the **worker nodes** according to service definitions.
+
