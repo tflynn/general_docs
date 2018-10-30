@@ -1,0 +1,613 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 7 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kubernetes.io/docs/tutorials/hello-minikube/)
+>> /Border [ 0 0 0 ] /Rect [ 114.3829 719.0236 336.1429 731.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.docker.com)
+>> /Border [ 0 0 0 ] /Rect [ 91.59291 668.0236 123.2629 680.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.virtualbox.org)
+>> /Border [ 0 0 0 ] /Rect [ 328.9029 668.0236 374.4729 680.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R ] /Contents 20 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 19 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 21 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 19 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Outlines 12 0 R /PageLabels 22 0 R /PageMode /UseNone /Pages 19 0 R /Type /Catalog
+>>
+endobj
+11 0 obj
+<<
+/Author () /CreationDate (D:20181028152839+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20181028152839+05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Kubernetes \(K8\) Faststart - macOS) /Trapped /False
+>>
+endobj
+12 0 obj
+<<
+/Count 7 /First 13 0 R /Last 17 0 R /Type /Outlines
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 707.0236 0 ] /Next 14 0 R /Parent 12 0 R /Title (Prerequisites)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 656.0236 0 ] /Next 15 0 R /Parent 12 0 R /Prev 13 0 R /Title (Tools)
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 506.6236 0 ] /Next 16 0 R /Parent 12 0 R /Prev 14 0 R /Title (Install and start a Kubernetes cluster)
+>>
+endobj
+16 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 431.6236 0 ] /Next 17 0 R /Parent 12 0 R /Prev 15 0 R /Title (Application deploy)
+>>
+endobj
+17 0 obj
+<<
+/Count 1 /Dest [ 9 0 R /XYZ 62.69291 461.8236 0 ] /First 18 0 R /Last 18 0 R /Parent 12 0 R /Prev 16 0 R 
+  /Title (Other notes)
+>>
+endobj
+18 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 428.8236 0 ] /Parent 17 0 R /Title (Minikube and Docker)
+>>
+endobj
+19 0 obj
+<<
+/Count 2 /Kids [ 8 0 R 9 0 R ] /Type /Pages
+>>
+endobj
+20 0 obj
+<<
+/Length 4137
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 69.35488 0 Td (Kubernetes \(K8\) Faststart - macOS) Tj T* -69.35488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Inspired by ) Tj 0 0 .501961 rg (https://kubernetes.io/docs/tutorials/hello-minikube/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Prerequisites) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 668.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Either ) Tj 0 0 .501961 rg (Docker) Tj 0 0 0 rg ( \(additional requirements, see notes below\) or ) Tj 0 0 .501961 rg (VirtualBox) Tj  T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Tools) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 617.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (kubectl) Tj /F1 10 Tf ( is a command line interface for running commands against Kubernetes clusters.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 583.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (brew install kubernetes-cli) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 551.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .536235 Tw 12 TL /F2 10 Tf 0 0 0 rg (Minikube) Tj /F1 10 Tf ( is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes) Tj T* 0 Tw (cluster inside a VM on your machine.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (brew cask install minikube) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 485.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Install and start a Kubernetes cluster) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 473.6236 cm
+Q
+q
+1 0 0 1 62.69291 473.6236 cm
+Q
+q
+1 0 0 1 62.69291 461.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (\(VirtualBox\) ) Tj /F3 10 Tf 0 0 0 rg (minikube) Tj ( ) Tj (start) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 455.6236 cm
+Q
+q
+1 0 0 1 62.69291 443.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (\(Docker\) ) Tj /F3 10 Tf 0 0 0 rg (minikube) Tj ( ) Tj (start) Tj ( ) Tj (--vm-driver=hyperkit) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 443.6236 cm
+Q
+q
+1 0 0 1 62.69291 410.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Application deploy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 392.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Create node.js server) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 239.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 144 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F3 10 Tf 12 TL (File: server.js) Tj T*  T* (var http = require\('http'\);) Tj T*  T* (var handleRequest = function\(request, response\) {) Tj T* (  console.log\('Received request for URL: ' + request.url\);) Tj T* (  response.writeHead\(200\);) Tj T* (  response.end\('Hello World!'\);) Tj T* (};) Tj T* (var www = http.createServer\(handleRequest\);) Tj T* (www.listen\(8080\);) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 219.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Create a Docker image) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 126.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 84 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F3 10 Tf 12 TL (File: Dockerfile) Tj T*  T* (FROM node:6.14.2) Tj T* (EXPOSE 8080) Tj T* (COPY server.js .) Tj T* (CMD node server.js) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 106.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Point docker tools to docker registry running in minikube) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+21 0 obj
+<<
+/Length 3445
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 739.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (eval $\(minikube docker-env\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 719.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Build image \(remember the trailing '.'\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 686.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (docker build -t hello-node:v1 .) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 666.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Create a Deployment to manage a Pod that has a Container that runs the image \(!\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 504 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (kubectl run hello-node --image=hello-node:v1 --port=8080 --image-pull-policy=Never) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 613.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Make the Pod accessible publicly as a Service) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 580.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (kubectl expose deployment hello-node --type=LoadBalancer) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 560.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (See all your hard work - \(opens console in local browser\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 527.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (minikube service hello-node) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Stop the 'minikube' cluster) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 473.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (minikube stop) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 440.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Other notes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 410.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Minikube and Docker) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 392.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Minikube requires the 'docker-machine-driver-hyperkit' driver to run with Docker.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 374.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Don't) Tj /F1 10 Tf ( install using 'brew install ...'. Homebrew installs too much.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 356.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Instead) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 311.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 594 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machine-driver-hyperkit \\) Tj T* (&) Tj (&) Tj ( sudo install -o root -g wheel -m 4755 docker-machine-driver-hyperkit /usr/local/bin/) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+22 0 obj
+<<
+/Nums [ 0 23 0 R 1 24 0 R ]
+>>
+endobj
+23 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+24 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000000073 00000 n 
+0000000124 00000 n 
+0000000231 00000 n 
+0000000343 00000 n 
+0000000547 00000 n 
+0000000721 00000 n 
+0000000899 00000 n 
+0000001004 00000 n 
+0000001239 00000 n 
+0000001444 00000 n 
+0000001550 00000 n 
+0000001843 00000 n 
+0000001917 00000 n 
+0000002031 00000 n 
+0000002150 00000 n 
+0000002302 00000 n 
+0000002434 00000 n 
+0000002585 00000 n 
+0000002692 00000 n 
+0000002758 00000 n 
+0000006947 00000 n 
+0000010444 00000 n 
+0000010494 00000 n 
+0000010528 00000 n 
+trailer
+<<
+/ID 
+[<625a3e692d00de13b3821789f31d5826><625a3e692d00de13b3821789f31d5826>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 25
+>>
+startxref
+10562
+%%EOF

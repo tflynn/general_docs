@@ -1,0 +1,387 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageLabels 9 0 R /PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author () /CreationDate (D:20181028105324+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20181028105324+05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Kubernetes Essential Concepts) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 5373
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 84.90488 0 Td (Kubernetes Essential Concepts) Tj T* -84.90488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 707.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.489979 Tw 12 TL /F2 10 Tf 0 0 0 rg (Kubernetes \(K8\)) Tj /F1 10 Tf ( is a portable, extensible open-source platform for managing containerized workloads) Tj T* 0 Tw (and services) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 689.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The K8 ) Tj /F2 10 Tf (Platform) Tj /F1 10 Tf ( is designed to be extensible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 683.0236 cm
+Q
+q
+1 0 0 1 62.69291 683.0236 cm
+Q
+q
+1 0 0 1 62.69291 671.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (A ) Tj /F2 10 Tf (Label) Tj /F1 10 Tf ( can be attached to a resource to allow easy organization.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 665.0236 cm
+Q
+q
+1 0 0 1 62.69291 641.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.869982 Tw 12 TL /F1 10 Tf 0 0 0 rg (An ) Tj /F2 10 Tf (Annotation) Tj /F1 10 Tf ( can be attached to a resource to simplify workflows and allow easy/improved) Tj T* 0 Tw (management.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+Q
+q
+1 0 0 1 62.69291 623.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The K8 ) Tj /F2 10 Tf (Control Plane) Tj /F1 10 Tf ( uses published APIs. Anyone can build a component and plug it in.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 617.0236 cm
+Q
+q
+1 0 0 1 62.69291 563.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 27 cm
+q
+BT 1 0 0 1 0 14 Tm 3.216412 Tw 12 TL /F1 10 Tf 0 0 0 rg (K8 ) Tj /F2 10 Tf (Build instructions) Tj /F1 10 Tf ( depend on the type of image / container being targets. They include) Tj T* 0 Tw ("Dockerfile' for Docker and so on.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.796905 Tw (For build instructions, images and containers, the Docker concepts can be used, though K8) Tj T* 0 Tw (supports more container types that just Docker.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 557.0236 cm
+Q
+q
+1 0 0 1 62.69291 533.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .072485 Tw 12 TL /F1 10 Tf 0 0 0 rg (A K8 ) Tj /F2 10 Tf (Image) Tj /F1 10 Tf ( results from applying the build instructions. They include a Docker image for Docker and) Tj T* 0 Tw (so on.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 527.0236 cm
+Q
+q
+1 0 0 1 62.69291 515.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (A K8 ) Tj /F2 10 Tf (Container) Tj /F1 10 Tf ( results from loading / running an image in K8.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 509.0236 cm
+Q
+q
+1 0 0 1 62.69291 497.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (K8 supports multiple ) Tj /F2 10 Tf (Container Runtimes) Tj /F1 10 Tf ( including for Docker containers.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 491.0236 cm
+Q
+q
+1 0 0 1 62.69291 479.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (A K8 ) Tj /F2 10 Tf (Pod) Tj /F1 10 Tf ( is a group of one or more Containers.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 473.0236 cm
+Q
+q
+1 0 0 1 62.69291 461.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (A K8 ) Tj /F2 10 Tf (Deployment) Tj /F1 10 Tf ( manages a pod.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 455.0236 cm
+Q
+q
+1 0 0 1 62.69291 443.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (A K8 ) Tj /F2 10 Tf (Service) Tj /F1 10 Tf ( exposes a pod to the outside world.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 437.0236 cm
+Q
+q
+1 0 0 1 62.69291 425.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (A K8 ) Tj /F2 10 Tf (Node) Tj /F1 10 Tf ( runs one or more Pods.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 425.0236 cm
+Q
+ 
+endstream
+endobj
+9 0 obj
+<<
+/Nums [ 0 10 0 R ]
+>>
+endobj
+10 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000073 00000 n 
+0000000114 00000 n 
+0000000221 00000 n 
+0000000333 00000 n 
+0000000536 00000 n 
+0000000622 00000 n 
+0000000908 00000 n 
+0000000967 00000 n 
+0000006391 00000 n 
+0000006431 00000 n 
+trailer
+<<
+/ID 
+[<4f64cbad70d6dab14cdc36e4fa5f2b6c><4f64cbad70d6dab14cdc36e4fa5f2b6c>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 11
+>>
+startxref
+6465
+%%EOF

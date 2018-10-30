@@ -1,0 +1,939 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kubernetes.io/docs/reference/kubectl/cheatsheet)
+>> /Border [ 0 0 0 ] /Rect [ 243.3529 666.1339 488.4829 678.1339 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Annots [ 4 0 R ] /Contents 34 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 35 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 36 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 37 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Contents 38 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/Contents 39 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/Contents 40 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+13 0 obj
+<<
+/Contents 41 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/Contents 42 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+15 0 obj
+<<
+/Contents 43 0 R /MediaBox [ 0 0 612 792 ] /Parent 33 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+16 0 obj
+<<
+/Outlines 18 0 R /PageLabels 44 0 R /PageMode /UseNone /Pages 33 0 R /Type /Catalog
+>>
+endobj
+17 0 obj
+<<
+/Author () /CreationDate (D:20181030123653+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20181030123653+05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (kubectl - Cheat Sheet) /Trapped /False
+>>
+endobj
+18 0 obj
+<<
+/Count 15 /First 19 0 R /Last 32 0 R /Type /Outlines
+>>
+endobj
+19 0 obj
+<<
+/Count 2 /Dest [ 6 0 R /XYZ 62.69291 654.1339 0 ] /First 20 0 R /Last 21 0 R /Next 22 0 R /Parent 18 0 R 
+  /Title (Kubectl Autocomplete)
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 618.1339 0 ] /Next 21 0 R /Parent 19 0 R /Title (BASH)
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 494.9339 0 ] /Parent 19 0 R /Prev 20 0 R /Title (ZSH)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 371.7339 0 ] /Next 23 0 R /Parent 18 0 R /Prev 19 0 R /Title (Kubectl Context and Configuration)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 653.9339 0 ] /Next 24 0 R /Parent 18 0 R /Prev 22 0 R /Title (Creating Objects)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 715.1339 0 ] /Next 25 0 R /Parent 18 0 R /Prev 23 0 R /Title (Viewing, Finding Resources)
+>>
+endobj
+25 0 obj
+<<
+/Dest [ 10 0 R /XYZ 62.69291 593.9339 0 ] /Next 26 0 R /Parent 18 0 R /Prev 24 0 R /Title (Updating Resources)
+>>
+endobj
+26 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 715.1339 0 ] /Next 27 0 R /Parent 18 0 R /Prev 25 0 R /Title (Patching Resources)
+>>
+endobj
+27 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 429.9339 0 ] /Next 28 0 R /Parent 18 0 R /Prev 26 0 R /Title (Editing Resources)
+>>
+endobj
+28 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 294.7339 0 ] /Next 29 0 R /Parent 18 0 R /Prev 27 0 R /Title (Scaling Resources)
+>>
+endobj
+29 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 715.1339 0 ] /Next 30 0 R /Parent 18 0 R /Prev 28 0 R /Title (Deleting Resources)
+>>
+endobj
+30 0 obj
+<<
+/Dest [ 13 0 R /XYZ 62.69291 715.1339 0 ] /Next 31 0 R /Parent 18 0 R /Prev 29 0 R /Title (Interacting with running Pods)
+>>
+endobj
+31 0 obj
+<<
+/Dest [ 14 0 R /XYZ 62.69291 715.1339 0 ] /Next 32 0 R /Parent 18 0 R /Prev 30 0 R /Title (Interacting with Nodes and Cluster)
+>>
+endobj
+32 0 obj
+<<
+/Dest [ 14 0 R /XYZ 62.69291 369.9339 0 ] /Parent 18 0 R /Prev 31 0 R /Title (Resource types)
+>>
+endobj
+33 0 obj
+<<
+/Count 10 /Kids [ 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R ] /Type /Pages
+>>
+endobj
+34 0 obj
+<<
+/Length 3214
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 688.1339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F2 22.5 Tf 27 TL 128.9058 0 Td (kubectl - Cheat Sheet) Tj T* -128.9058 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 666.1339 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (With thanks for the thorough job done at ) Tj 0 0 .501961 rg (https://kubernetes.io/docs/reference/kubectl/cheatsheet) Tj 0 0 0 rg ( .) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 630.1339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Kubectl Autocomplete) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 600.1339 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (BASH) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 506.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 84 re B*
+Q
+q
+BT 1 0 0 1 0 62 Tm 12 TL /F3 10 Tf 0 0 0 rg (# setup autocomplete in bash into the current shell,) Tj T* (# bash-completion package should be installed first.) Tj T* (source ) Tj (<) Tj (\(kubectl completion bash\)) Tj T*  T* (# add autocomplete permanently to your bash shell.) Tj T* (echo "source ) Tj (<) Tj (\(kubectl completion bash\)" ) Tj (>) Tj (>) Tj ( ~/.bashrc) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 476.9339 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (ZSH) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 383.7339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 84 re B*
+Q
+q
+BT 1 0 0 1 0 62 Tm 12 TL /F3 10 Tf 0 0 0 rg (# setup autocomplete in zsh into the current shell) Tj T* (source ) Tj (<) Tj (\(kubectl completion zsh\)) Tj T*  T* (# add autocomplete permanently to your zsh shell) Tj T* (echo "if [ $commands[kubectl] ]; then source ) Tj (<) Tj (\(kubectl completion zsh\); fi" \\) Tj T* (  ) Tj (>) Tj (>) Tj (  ~/.zshrc) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 347.7339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Kubectl Context and Configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 317.7339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.614925 Tw (Set which Kubernetes cluster kubectl communicates with and modifies configuration information. See) Tj T* 0 Tw (Authenticating Across Clusters with kubeconfig documentation for detailed config file information.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 80.53386 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 228 re B*
+Q
+q
+BT 1 0 0 1 0 206 Tm 12 TL /F3 10 Tf 0 0 0 rg (kubectl config view # Show Merged kubeconfig settings.) Tj T*  T* (# use multiple kubeconfig files at the same time and view merged config) Tj T* (KUBECONFIG=~/.kube/config:~/.kube/kubconfig2 kubectl config view) Tj T*  T* (# Get the password for the e2e user) Tj T* (kubectl config view -o jsonpath='{.users[?\(@.name == "e2e"\)].user.password}') Tj T*  T* (# Display the current-context) Tj T* (kubectl config current-context) Tj T*  T* (# set the default context to my-cluster-name) Tj T* (kubectl config use-context my-cluster-name) Tj T*  T* (# add a new cluster to your kubeconf that supports basic auth) Tj T* (kubectl config set-credentials kubeuser/foo.kubernetes.com \\) Tj T* (  --username=kubeuser --password=kubepassword) Tj T*  T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+35 0 obj
+<<
+/Length 2121
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 665.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (# set a context utilizing a specific username and namespace.) Tj T* (kubectl config set-context gce --user=cluster-admin --namespace=foo \\) Tj T* (  ) Tj (&) Tj (&) Tj ( kubectl config use-context gce) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 629.9339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Creating Objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.9339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Kubernetes manifests can be defined in json or yaml. The file extension .yaml, .yml, and .json can be used.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 86.73386 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 516 re B*
+Q
+q
+BT 1 0 0 1 0 494 Tm 12 TL /F3 10 Tf 0 0 0 rg (# create resource\(s\)) Tj T* (kubectl create -f ./my-manifest.yaml) Tj T*  T* (# create from multiple files) Tj T* (kubectl create -f ./my1.yaml -f ./my2.yaml) Tj T*  T* (# create resource\(s\) in all manifest files in dir) Tj T* (kubectl create -f ./dir) Tj T*  T* (# create resource\(s\) from url) Tj T* (kubectl create -f https://git.io/vPieo) Tj T*  T* (# start a single instance of nginx) Tj T* (kubectl run nginx --image=nginx) Tj T*  T* (# get the documentation for pod and svc manifests) Tj T* (kubectl explain pods,svc) Tj T*  T* (# Create multiple YAML objects from stdin) Tj T* (cat ) Tj (<) Tj (<) Tj (EOF | kubectl create -f -) Tj T* (apiVersion: v1) Tj T* (kind: Pod) Tj T* (metadata:) Tj T* (  name: busybox-sleep) Tj T* (spec:) Tj T* (  containers:) Tj T* (  - name: busybox) Tj T* (    image: busybox) Tj T* (    args:) Tj T* (    - sleep) Tj T* (    - "1000000") Tj T* (---) Tj T* (apiVersion: v1) Tj T* (kind: Pod) Tj T* (metadata:) Tj T* (  name: busybox-sleep-less) Tj T* (spec:) Tj T* (  containers:) Tj T* (  - name: busybox) Tj T* (    image: busybox) Tj T* (    args:) Tj T* (    - sleep) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+36 0 obj
+<<
+/Length 637
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 533.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 180 re B*
+Q
+q
+BT 1 0 0 1 0 158 Tm 12 TL /F3 10 Tf 0 0 0 rg (    - "1000") Tj T* (EOF) Tj T*  T* (# Create a secret with several keys) Tj T* (cat ) Tj (<) Tj (<) Tj (EOF | kubectl create -f -) Tj T* (apiVersion: v1) Tj T* (kind: Secret) Tj T* (metadata:) Tj T* (  name: mysecret) Tj T* (type: Opaque) Tj T* (data:) Tj T* (  password: $\(echo -n "s33msi4" | base64\)) Tj T* (  username: $\(echo -n "jane" | base64\)) Tj T* (EOF) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+37 0 obj
+<<
+/Length 2417
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 691.1339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Viewing, Finding Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 81.93386 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 600 re B*
+Q
+q
+BT 1 0 0 1 0 578 Tm 12 TL /F3 10 Tf 0 0 0 rg (# Get commands with basic output) Tj T*  T* (# List all services in the namespace) Tj T* (kubectl get services) Tj T*  T* (# List all pods in all namespaces) Tj T* (kubectl get pods --all-namespaces) Tj T*  T* (# List all pods in the namespace, with more details) Tj T* (kubectl get pods -o wide) Tj T*  T* (# List a particular deployment) Tj T* (kubectl get deployment my-dep) Tj T*  T* (# List all pods in the namespace, including uninitialized ones) Tj T* (kubectl get pods --include-uninitialized) Tj T*  T* (# Describe commands with verbose output) Tj T* (kubectl describe nodes my-node) Tj T* (kubectl describe pods my-pod) Tj T*  T* (kubectl get services --sort-by=.metadata.name # List Services Sorted by Name) Tj T*  T* (# List pods Sorted by Restart Count) Tj T* (kubectl get pods --sort-by='.status.containerStatuses[0].restartCount') Tj T*  T* (# Get the version label of all pods with label app=cassandra) Tj T* (kubectl get pods --selector=app=cassandra rc -o \\) Tj T* (  jsonpath='{.items[*].metadata.labels.version}') Tj T*  T* (# Get all running pods in the namespace) Tj T* (kubectl get pods --field-selector=status.phase=Running) Tj T*  T* (# Get ExternalIPs of all nodes) Tj T* (kubectl get nodes \\) Tj T* (  -o jsonpath='{.items[*].status.addresses[?\(@.type=="ExternalIP"\)].address}') Tj T*  T* (# List Names of Pods that belong to Particular RC) Tj T* (# "jq" command useful for transformations that are too complex for jsonpath,) Tj T* (# it can be found at https://stedolan.github.io/jq/) Tj T* (sel=${$\(kubectl get rc my-rc --output=json | \\) Tj T* (  jq -j '.spec.selector | to_entries | .[] | "\\\(.key\)=\\\(.value\),"'\)%?}) Tj T* (echo $\(kubectl get pods --selector=$sel \\) Tj T* (  --output=jsonpath={.items..metadata.name}\)) Tj T*  T* (# Check which nodes are ready) Tj T* (JSONPATH='{range .items[*]}{@.metadata.name}\\) Tj T* (:{range @.status.conditions[*]}{@.type}={@.status};{end}{end}' \\) Tj T* ( ) Tj (&) Tj (&) Tj ( kubectl get nodes -o jsonpath="$JSONPATH" | grep "Ready=True") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+38 0 obj
+<<
+/Length 2326
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 605.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf 0 0 0 rg  T* (# List all Secrets currently in use by a pod) Tj T* (kubectl get pods -o json \\) Tj T* (  | jq '.items[].spec.containers[].env[]?.valueFrom.secretKeyRef.name' \\) Tj T* (  | grep -v null | sort | uniq) Tj T*  T* (# List Events sorted by timestamp) Tj T* (kubectl get events --sort-by=.metadata.creationTimestamp) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 569.9339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Updating Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 116.7339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 444 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 422 Tm /F3 10 Tf 12 TL (# Rolling update pods of frontend-v1) Tj T* (kubectl rolling-update frontend-v1 -f frontend-v2.json) Tj T*  T* (# Change the name of the resource and update the image) Tj T* (kubectl rolling-update frontend-v1 frontend-v2 --image=image:v2) Tj T*  T* (# Update the pods image of frontend) Tj T* (kubectl rolling-update frontend --image=image:v2) Tj T*  T* (# Abort existing rollout in progress) Tj T* (kubectl rolling-update frontend-v1 frontend-v2 --rollback) Tj T*  T* (# Replace a pod based on the JSON passed into stdin) Tj T* (cat pod.json | kubectl replace -f -) Tj T*  T* (# Force replace, delete and then re-create the resource.) Tj T* (# Will cause a service outage.) Tj T* (kubectl replace --force -f ./pod.json) Tj T*  T* (# Create a service for a replicated nginx,) Tj T* (# which serves on port 80 and connects to the containers on port 8000) Tj T* (kubectl expose rc nginx --port=80 --target-port=8000) Tj T*  T* (# Update a single-container pod's image version \(tag\) to v4) Tj T* (kubectl get pod mypod -o yaml \\) Tj T* (  | sed 's/\\\(image: myimage\\\):.*$/\\1:v4/' \\) Tj T* (  | kubectl replace -f -) Tj T*  T* (# Add a Label) Tj T* (kubectl label pods my-pod new-label=awesome) Tj T*  T* (# Add an annotation) Tj T* (kubectl annotate pods my-pod icon-url=http://goo.gl/XXBTWq) Tj T*  T* (# Auto scale a deployment "foo") Tj T* (kubectl autoscale deployment foo --min=2 --max=10) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+39 0 obj
+<<
+/Length 2834
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 691.1339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Patching Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 441.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 546 240 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 218 Tm /F3 10 Tf 12 TL (# Partially update a node) Tj T* (kubectl patch node k8s-node-1 -p '{"spec":{"unschedulable":true}}') Tj T*  T* (# Update a container's image;) Tj T* (# spec.containers[*].name is required because it's a merge key) Tj T* (kubectl patch pod valid-pod \\) Tj T* (  -p '{"spec":{"containers":[{"name":"kubernetes-serve-hostname","image":"new image"}]}}') Tj T*  T* (# Update a container's image using a json patch with positional arrays) Tj T* (kubectl patch pod valid-pod --type='json' \\) Tj T* (  -p='[{"op": "replace", "path": "/spec/containers/0/image", "value":"new image"}]') Tj T*  T* (# Disable a deployment livenessProbe using a json patch with positional arrays) Tj T* (kubectl patch deployment valid-deployment  --type json   \\) Tj T* (  -p='[{"op": "remove", "path": "/spec/template/spec/containers/0/livenessProbe"}]') Tj T*  T* (# Add a new element to a positional array) Tj T* (kubectl patch sa default --type='json' \\) Tj T* (  -p='[{"op": "add", "path": "/secrets/1", "value": {"name": "whatever" } }]') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 405.9339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Editing Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.9339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The edit any API resource in an editor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 306.7339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 72 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F3 10 Tf 12 TL (# Edit the service named docker-registry) Tj T* (kubectl edit svc/docker-registry) Tj T*  T* (# Use an alternative editor) Tj T* (KUBE_EDITOR="nano" kubectl edit svc/docker-registry) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 270.7339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Scaling Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.5339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 144 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F3 10 Tf 12 TL (# Scale a replicaset named 'foo' to 3) Tj T* (kubectl scale --replicas=3 rs/foo) Tj T*  T* (# Scale a resource specified in "foo.yaml" to 3) Tj T* (kubectl scale --replicas=3 -f foo.yaml) Tj T*  T* (# If the deployment named mysql's current size is 2, scale mysql to 3) Tj T* (kubectl scale --current-replicas=2 --replicas=3 deployment/mysql) Tj T*  T* (# Scale multiple replication controllers) Tj T* (kubectl scale --replicas=5 rc/foo rc/bar rc/baz) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+40 0 obj
+<<
+/Length 1013
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 691.1339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Deleting Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 498 180 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 158 Tm /F3 10 Tf 12 TL (# Delete a pod using the type and name specified in pod.json) Tj T* (kubectl delete -f ./pod.json) Tj T*  T* (# Delete pods and services with same names "baz" and "foo") Tj T* (kubectl delete pod,service baz foo) Tj T*  T* (# Delete pods and services with label name=myLabel) Tj T* (kubectl delete pods,services -l name=myLabel) Tj T*  T* (# Delete pods and services, including uninitialized ones, with label name=myLabel) Tj T* (kubectl delete pods,services -l name=myLabel --include-uninitialized) Tj T*  T* (# Delete all pods and services, including uninitialized ones, in namespace my-ns) Tj T* (kubectl -n my-ns delete po,svc --all) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+41 0 obj
+<<
+/Length 1695
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 691.1339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Interacting with running Pods) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 444 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 422 Tm /F3 10 Tf 12 TL (# dump pod logs \(stdout\)) Tj T* (kubectl logs my-pod) Tj T*  T* (# dump pod logs \(stdout\) for a previous instantiation of a container) Tj T* (kubectl logs my-pod --previous) Tj T*  T* (# dump pod container logs \(stdout, multi-container case\)) Tj T* (kubectl logs my-pod -c my-container) Tj T*  T* (# dump pod container logs \(stdout, multi-container case\)) Tj T* (# for a previous instantiation of a container) Tj T* (kubectl logs my-pod -c my-container --previous) Tj T*  T* (# stream pod logs \(stdout\)) Tj T* (kubectl logs -f my-pod) Tj T*  T* (# stream pod container logs \(stdout, multi-container case\)) Tj T* (kubectl logs -f my-pod -c my-container) Tj T*  T* (# Run pod as interactive shell) Tj T* (kubectl run -i --tty busybox --image=busybox -- sh) Tj T*  T* (# Attach to Running Container) Tj T* (kubectl attach my-pod -i) Tj T*  T* (# Listen on port 5000 on the local machine and forward to port 6000 on my-pod) Tj T* (kubectl port-forward my-pod 5000:6000) Tj T*  T* (# Run command in existing pod \(1 container case\)) Tj T* (kubectl exec my-pod -- ls /) Tj T*  T* (# Run command in existing pod \(multi-container case\)) Tj T* (kubectl exec my-pod -c my-container -- ls /) Tj T*  T* (# Show metrics for a given pod and its containers) Tj T* (kubectl top pod POD_NAME --containers) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+42 0 obj
+<<
+/Length 2601
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 691.1339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Interacting with Nodes and Cluster) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 300 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 278 Tm /F3 10 Tf 12 TL (# Mark my-node as unschedulable) Tj T* (kubectl cordon my-node) Tj T*  T* (# Drain my-node in preparation for maintenance) Tj T* (kubectl drain my-node) Tj T*  T* (# Mark my-node as schedulable) Tj T* (kubectl uncordon my-node) Tj T*  T* (# Show metrics for a given node) Tj T* (kubectl top node my-node) Tj T*  T* (# Display addresses of the master and services) Tj T* (kubectl cluster-info) Tj T*  T* (# Dump current cluster state to stdout) Tj T* (kubectl cluster-info dump) Tj T*  T* (# Dump current cluster state to /path/to/cluster-state) Tj T* (kubectl cluster-info dump --output-directory=/path/to/cluster-state) Tj T*  T* (# If a taint with that key and effect already exists,) Tj T* (# its value is replaced as specified.) Tj T* (kubectl taint nodes foo dedicated=special-user:NoSchedule) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 345.9339 cm
+q
+BT 1 0 0 1 0 4 Tm 24 TL /F2 20 Tf 0 0 0 rg (Resource types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 315.9339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .351612 Tw (List all supported resource types along with their shortnames, API group, whether they are namespaced, and) Tj T* 0 Tw (Kind:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 282.7339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (kubectl api-resources) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 262.7339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Other operations for exploring API resources:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 85.53386 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 168 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 146 Tm /F3 10 Tf 12 TL (# All namespaced resources) Tj T* (kubectl api-resources --namespaced=true) Tj T*  T* (# All non-namespaced resources) Tj T* (kubectl api-resources --namespaced=false) Tj T*  T* (# All resources with simple output \(just the resource name\)) Tj T* (kubectl api-resources -o name) Tj T*  T* (# All resources with expanded \(aka "wide"\) output) Tj T* (kubectl api-resources -o wide) Tj T*  T* (# All resources that support the "list" and "get" request verbs) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+43 0 obj
+<<
+/Length 419
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 653.9339 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 485.4142 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F3 10 Tf 12 TL (kubectl api-resources --verbs=list,get) Tj T*  T* (# All resources in the "extensions" API group) Tj T* (kubectl api-resources --api-group=extensions) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+44 0 obj
+<<
+/Nums [ 0 45 0 R 1 46 0 R 2 47 0 R 3 48 0 R 4 49 0 R 
+  5 50 0 R 6 51 0 R 7 52 0 R 8 53 0 R 9 54 0 R ]
+>>
+endobj
+45 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+46 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+47 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+48 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+49 0 obj
+<<
+/S /D /St 5
+>>
+endobj
+50 0 obj
+<<
+/S /D /St 6
+>>
+endobj
+51 0 obj
+<<
+/S /D /St 7
+>>
+endobj
+52 0 obj
+<<
+/S /D /St 8
+>>
+endobj
+53 0 obj
+<<
+/S /D /St 9
+>>
+endobj
+54 0 obj
+<<
+/S /D /St 10
+>>
+endobj
+xref
+0 55
+0000000000 65535 f 
+0000000073 00000 n 
+0000000124 00000 n 
+0000000231 00000 n 
+0000000343 00000 n 
+0000000550 00000 n 
+0000000655 00000 n 
+0000000868 00000 n 
+0000001063 00000 n 
+0000001258 00000 n 
+0000001453 00000 n 
+0000001649 00000 n 
+0000001845 00000 n 
+0000002041 00000 n 
+0000002237 00000 n 
+0000002433 00000 n 
+0000002629 00000 n 
+0000002735 00000 n 
+0000003014 00000 n 
+0000003089 00000 n 
+0000003249 00000 n 
+0000003354 00000 n 
+0000003458 00000 n 
+0000003605 00000 n 
+0000003735 00000 n 
+0000003875 00000 n 
+0000004008 00000 n 
+0000004141 00000 n 
+0000004273 00000 n 
+0000004405 00000 n 
+0000004538 00000 n 
+0000004682 00000 n 
+0000004831 00000 n 
+0000004947 00000 n 
+0000005068 00000 n 
+0000008334 00000 n 
+0000010507 00000 n 
+0000011195 00000 n 
+0000013664 00000 n 
+0000016042 00000 n 
+0000018928 00000 n 
+0000019993 00000 n 
+0000021740 00000 n 
+0000024393 00000 n 
+0000024863 00000 n 
+0000024988 00000 n 
+0000025022 00000 n 
+0000025056 00000 n 
+0000025090 00000 n 
+0000025124 00000 n 
+0000025158 00000 n 
+0000025192 00000 n 
+0000025226 00000 n 
+0000025260 00000 n 
+0000025294 00000 n 
+trailer
+<<
+/ID 
+[<b28371f4ffd2c9fc2d6b063fd9e58071><b28371f4ffd2c9fc2d6b063fd9e58071>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 17 0 R
+/Root 16 0 R
+/Size 55
+>>
+startxref
+25329
+%%EOF

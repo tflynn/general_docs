@@ -1,0 +1,137 @@
+
+Kubernetes (K8) Faststart - macOS
+=================================
+
+Inspired by https://kubernetes.io/docs/tutorials/hello-minikube/
+
+Prerequisites
+-------------
+
+Either `Docker <https://www.docker.com>`_ (additional requirements, see notes below)  or `VirtualBox <https://www.virtualbox.org>`_
+
+Tools
+-----
+
+**kubectl** is a command line interface for running commands against Kubernetes clusters.
+
+
+::
+
+
+   brew install kubernetes-cli
+
+**Minikube** is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your machine.
+
+
+::
+
+
+   brew cask install minikube
+
+Install and start a Kubernetes cluster
+--------------------------------------
+
+
+* (VirtualBox) ``minikube start``
+* (Docker) ``minikube start --vm-driver=hyperkit``
+
+Application deploy
+------------------
+
+**Create node.js server**
+
+
+::
+
+
+   File: server.js
+
+   var http = require('http');
+
+   var handleRequest = function(request, response) {
+     console.log('Received request for URL: ' + request.url);
+     response.writeHead(200);
+     response.end('Hello World!');
+   };
+   var www = http.createServer(handleRequest);
+   www.listen(8080);
+
+**Create a Docker image**
+
+
+::
+
+
+   File: Dockerfile
+
+   FROM node:6.14.2
+   EXPOSE 8080
+   COPY server.js .
+   CMD node server.js
+
+**Point docker tools to docker registry running in minikube**
+
+
+::
+
+
+   eval $(minikube docker-env)
+
+**Build image (remember the trailing '.')**
+
+
+::
+
+
+   docker build -t hello-node:v1 .
+
+**Create a Deployment to manage a Pod that has a Container that runs the image (!)**
+
+
+::
+
+
+   kubectl run hello-node --image=hello-node:v1 --port=8080 --image-pull-policy=Never
+
+**Make the Pod accessible publicly as a Service**
+
+
+::
+
+
+   kubectl expose deployment hello-node --type=LoadBalancer
+
+**See all your hard work - (opens console in local browser)**
+
+
+::
+
+
+   minikube service hello-node
+
+**Stop the 'minikube' cluster**
+
+
+::
+
+
+   minikube stop
+
+Other notes
+-----------
+
+Minikube and Docker
+^^^^^^^^^^^^^^^^^^^
+
+Minikube requires the 'docker-machine-driver-hyperkit' driver to run with Docker.
+
+**Don't** install using 'brew install ...'. Homebrew installs too much. 
+
+Instead
+
+
+::
+
+
+   curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machine-driver-hyperkit \
+   && sudo install -o root -g wheel -m 4755 docker-machine-driver-hyperkit /usr/local/bin/

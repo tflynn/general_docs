@@ -1,0 +1,133 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kubernetes Essential Concepts &#8212; General Docs 0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="kubernetes-essential-concepts">
+<h1>Kubernetes Essential Concepts<a class="headerlink" href="#kubernetes-essential-concepts" title="Permalink to this headline">¶</a></h1>
+<p><strong>Kubernetes (K8)</strong>  is a portable, extensible open-source platform for managing containerized workloads and services</p>
+<p>The K8 <strong>Platform</strong> is designed to be extensible.</p>
+<ul>
+<li><p class="first">A <strong>Label</strong>  can be attached to a resource to allow easy organization.</p>
+</li>
+<li><p class="first">An  <strong>Annotation</strong> can be attached to a resource to simplify workflows and allow easy/improved management.</p>
+</li>
+<li><p class="first">The K8 <strong>Control Plane</strong>  uses published APIs. Anyone can build a component and plug it in.</p>
+</li>
+<li><p class="first">K8 <strong>Build instructions</strong> depend on the type of image / container being targets. They include “Dockerfile’  for Docker and so on.</p>
+<blockquote>
+<div><p>For build instructions, images and containers, the Docker concepts can be used, though K8 supports more container types that just Docker.</p>
+</div></blockquote>
+</li>
+<li><p class="first">A K8 <strong>Image</strong>  results from applying the build instructions. They include a Docker image for Docker and so on.</p>
+</li>
+<li><p class="first">A K8 <strong>Container</strong> results from loading / running an image in K8.</p>
+</li>
+<li><p class="first">K8 supports multiple <strong>Container Runtimes</strong> including for Docker containers.</p>
+</li>
+<li><p class="first">A K8 <strong>Pod</strong> is a group of one or more Containers.</p>
+</li>
+<li><p class="first">A K8 <strong>Deployment</strong> manages a pod.</p>
+</li>
+<li><p class="first">A K8 <strong>Service</strong> exposes a pod to the outside world.</p>
+</li>
+<li><p class="first">A K8 <strong>Node</strong> runs one or more Pods.</p>
+</li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">General Docs</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Tracy Flynn.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/kubernetes/KubernetesConcepts.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
